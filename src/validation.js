@@ -3,12 +3,9 @@
     la prueba.
 */
 export function validarEmail(email) {
-  const tieneArroba = email.includes("@");
-  const tienePuntoCom = email.includes(".com");
-  const longitudMinima = email.length >= 6;
-  return tieneArroba && tienePuntoCom && longitudMinima;
+  return false;
 }
 
 export function validarPassword(password) {
-  return password.length >= 8;
+  return false;
 }
